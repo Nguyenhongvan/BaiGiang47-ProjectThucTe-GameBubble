@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:propertyName="y": theo chiều đứng
+    android:repeatCount="1": số lần lặp
+    android:repeatMode="reverse": lên rồi xuống liên tục trong 3 giây
+    android:valueFrom="1000" & android:valueTo="20": khoảng cách chạy từ dưới lên trên trong đoạn từ 20 đến 1000
+-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:propertyName="y"
+    android:repeatCount="1"
+    android:repeatMode="reverse"
+    android:valueFrom="1000"
+    android:valueTo="20">
+</objectAnimator>
